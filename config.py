@@ -7,4 +7,4 @@ URL_A = "https://www.animenewsnetwork.com/newsfeed/rss.xml?ann-edition=us" #News
 #URL_B = "" #News RSS Feed Url 2
 START_PIC = "" #Startup Pic [Optional]
 MONGO_URI = "" #Databse uri get it from https://www.mongodb.com/
-ADMINS = [8667251104]
+ADMINS = [8876236699]
