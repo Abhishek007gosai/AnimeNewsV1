@@ -1,8 +1,8 @@
 import os
 
 # Read configuration from environment variables
-API_ID = int(os.environ.get("API_ID", 29245477))
-API_HASH = os.environ.get("API_HASH", "0abc83883262245c90ca337b7a0375c4")
+API_ID = int(os.environ.get("API_ID", ))
+API_HASH = os.environ.get("API_HASH", "")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 URL_A = os.environ.get("URL_A", "https://www.animenewsnetwork.com/newsfeed/rss.xml?ann-edition=us")
 URL_B = os.environ.get("URL_B", "")
