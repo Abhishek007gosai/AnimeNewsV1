@@ -8,4 +8,4 @@ URL_A = os.environ.get("URL_A", "https://www.animenewsnetwork.com/newsfeed/rss.x
 URL_B = os.environ.get("URL_B", "")
 START_PIC = os.environ.get("START_PIC", "")
 MONGO_URI = os.environ.get("MONGO_URI", "")
-ADMINS = [int(x.strip()) for x in os.environ.get("ADMINS", "8771195193").split(",") if x.strip()]
+ADMINS = [int(x.strip()) for x in os.environ.get("ADMINS", "").split(",") if x.strip()]
